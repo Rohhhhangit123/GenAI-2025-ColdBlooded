@@ -3,7 +3,7 @@ import { ApiResponse, AnalysisResult } from '../types';
 // Environment-aware API configuration
 const getApiUrl = (): string => {
   // Always use the Vercel proxy endpoint (both dev and prod)
-  return '/api/analyze';
+  return 'https://credscore-355089345579.europe-west1.run.app';
 };
 
 function withTimeout(ms: number) {
